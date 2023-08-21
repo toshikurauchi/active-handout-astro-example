@@ -1,0 +1,20 @@
+{
+  "name": "devlife-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/lit": "^2.1.1",
+    "@insperedu/active-handout": "https://gitpkg.now.sh/toshikurauchi/active-handout-astro/packages/active-handout?main",
+    "astro": "^2.10.12"
+  },
+  "devDependencies": {
+    "sass": "^1.66.1"
+  }
+}
