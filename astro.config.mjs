@@ -13,6 +13,7 @@ export default defineConfig({
         "Disciplina do 1o semestre do curso de Ciência da Computação do Insper",
       auth: true,
       lang: "pt",
+      authPageImage: "/img/insper.png",
     }),
   ],
   vite: {
