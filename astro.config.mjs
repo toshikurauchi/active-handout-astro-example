@@ -4,7 +4,7 @@ import activeHandout from "@toshikurauchi/active-handout";
 
 // https://astro.build/config
 export default defineConfig({
-  adapters: vercel(),
+  adapter: vercel(),
   experimental: {
     assets: true,
   },
