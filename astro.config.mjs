@@ -12,6 +12,8 @@ export default defineConfig({
       description:
         "Disciplina do 1o semestre do curso de Ciência da Computação do Insper",
       auth: true,
+      useEmailAuth: true,
+      useGoogleAuth: true,
       lang: "pt",
       authPageImage: "/img/insper.png",
     }),
