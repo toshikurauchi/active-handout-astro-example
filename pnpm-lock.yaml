@@ -12,8 +12,8 @@ dependencies:
     specifier: ^3.8.2
     version: 3.8.2(astro@2.10.12)(react@18.2.0)
   '@toshikurauchi/active-handout':
-    specifier: ^0.0.2
-    version: 0.0.2(@types/react-dom@18.2.7)(@types/react@18.2.21)(postcss@8.4.28)
+    specifier: ^0.0.3
+    version: 0.0.3(@types/react-dom@18.2.7)(@types/react@18.2.21)(postcss@8.4.28)
   astro:
     specifier: ^2.10.12
     version: 2.10.12(sass@1.66.1)
@@ -1734,8 +1734,8 @@ packages:
     dev: false
     optional: true
 
-  /@toshikurauchi/active-handout@0.0.2(@types/react-dom@18.2.7)(@types/react@18.2.21)(postcss@8.4.28):
-    resolution: {integrity: sha512-vqFj6wogcTizRvIO9AnuWOU8hje0tUiht9bFQzyhXy845kW/+/WB4gDgEFZu1ZlSk8wyiNF7WzildjdmD08bdA==}
+  /@toshikurauchi/active-handout@0.0.3(@types/react-dom@18.2.7)(@types/react@18.2.21)(postcss@8.4.28):
+    resolution: {integrity: sha512-cMXOGhseG1cqKPeWiZ34Yy6dDoWb4D6cCFTkci7Vgn5UmyV9VID5rni2ePE29MjAOzL0qn8rGG+SS35nDkNmJw==}
     dependencies:
       '@astrojs/mdx': 0.19.7(astro@2.10.14)
       '@astrojs/react': 2.3.2(@types/react-dom@18.2.7)(@types/react@18.2.21)(react-dom@18.2.0)(react@18.2.0)
