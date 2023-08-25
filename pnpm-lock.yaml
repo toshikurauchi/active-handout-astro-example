@@ -8,9 +8,9 @@ dependencies:
   '@astrojs/react':
     specifier: ^2.3.2
     version: 2.3.2(@types/react-dom@18.2.7)(@types/react@18.2.21)(react-dom@18.2.0)(react@18.2.0)
-  '@insperedu/active-handout':
+  '@toshikurauchi/active-handout':
     specifier: https://gitpkg.now.sh/toshikurauchi/active-handout-astro/packages/active-handout?main
-    version: link:../../active-handout/active-handout-astro/packages/active-handout
+    version: link:../active-handout-astro/packages/active-handout
   astro:
     specifier: ^2.10.12
     version: 2.10.12(sass@1.66.1)
