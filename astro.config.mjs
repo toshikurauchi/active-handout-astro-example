@@ -1,8 +1,10 @@
 import { defineConfig } from "astro/config";
+import vercel from "@astrojs/vercel/serverless";
 import activeHandout from "@toshikurauchi/active-handout";
 
 // https://astro.build/config
 export default defineConfig({
+  adapters: vercel(),
   experimental: {
     assets: true,
   },
