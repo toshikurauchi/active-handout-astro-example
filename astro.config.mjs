@@ -17,6 +17,7 @@ export default defineConfig({
       useEmailAuth: true,
       useGoogleAuth: true,
       useGitHubAuth: true,
+      telemetry: true,
       lang: "pt",
       authPageImage: "/img/insper.png",
     }),
