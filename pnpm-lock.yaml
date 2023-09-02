@@ -12,8 +12,8 @@ dependencies:
     specifier: ^3.8.2
     version: 3.8.2(astro@2.10.12)(react@18.2.0)
   '@toshikurauchi/active-handout':
-    specifier: ^0.0.14
-    version: 0.0.14(@types/react-dom@18.2.7)(@types/react@18.2.21)(csstype@3.1.2)(postcss@8.4.28)
+    specifier: ^0.0.15
+    version: 0.0.15(@types/react-dom@18.2.7)(@types/react@18.2.21)(csstype@3.1.2)(postcss@8.4.28)
   astro:
     specifier: ^2.10.12
     version: 2.10.12(sass@1.66.1)
@@ -1627,8 +1627,8 @@ packages:
     dev: false
     optional: true
 
-  /@toshikurauchi/active-handout@0.0.14(@types/react-dom@18.2.7)(@types/react@18.2.21)(csstype@3.1.2)(postcss@8.4.28):
-    resolution: {integrity: sha512-YQIjMsFxDod1AbE/9z75CPF9SFKYLH/DF764f40QIEUOhRvP2dmXpWZ7//OGxL7KQhSSmJwKslf9qaiZJkYkOQ==}
+  /@toshikurauchi/active-handout@0.0.15(@types/react-dom@18.2.7)(@types/react@18.2.21)(csstype@3.1.2)(postcss@8.4.28):
+    resolution: {integrity: sha512-R4KeLioa/lYcANXqxG/faYIjQySSuOD6WFvSFkLk/3RgH8G8wL6eHtkQ4YIGxygCKgR5r9hadwG26YisBBlnww==}
     dependencies:
       '@astrojs/mdx': 0.19.7(astro@2.10.15)
       '@astrojs/react': 2.3.2(@types/react-dom@18.2.7)(@types/react@18.2.21)(react-dom@18.2.0)(react@18.2.0)
@@ -1797,7 +1797,7 @@ packages:
   /@types/hast@3.0.0:
     resolution: {integrity: sha512-SoytUJRuf68HXYqcXicQIhCrLQjqeYU2anikr4G3p3Iz+OZO5QDQpDj++gv+RenHsnUBwNZ2dumBArF8VLSk2Q==}
     dependencies:
-      '@types/unist': 2.0.7
+      '@types/unist': 3.0.0
     dev: false
 
   /@types/http-errors@2.0.1:
@@ -1844,7 +1844,7 @@ packages:
   /@types/mdast@4.0.0:
     resolution: {integrity: sha512-YLeG8CujC9adtj/kuDzq1N4tCDYKoZ5l/bnjq8d74+t/3q/tHquJOJKUQXJrLCflOHpKjXgcI/a929gpmLOEng==}
     dependencies:
-      '@types/unist': 2.0.7
+      '@types/unist': 3.0.0
     dev: false
 
   /@types/mdurl@1.0.2:
