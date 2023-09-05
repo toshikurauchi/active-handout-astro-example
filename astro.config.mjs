@@ -5,9 +5,6 @@ import activeHandout from "@toshikurauchi/active-handout";
 // https://astro.build/config
 export default defineConfig({
   adapter: vercel(),
-  experimental: {
-    assets: true,
-  },
   integrations: [
     activeHandout({
       title: "Developer Life",
