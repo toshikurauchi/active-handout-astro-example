@@ -8,8 +8,25 @@ navigation:
 
 Besides publishing materials, **Active Handout** also allows the addition of some interactive contents that enhance students' learning.
 
-<ProgressExercise slug="ex1">
+<ProgressExercise slug="ex1" tags={["learn2learn"]}>
   Example of exercise to help students keep their progress. Since we have
   telemetry enabled, it should record and fetch the exercise state (done or not)
   from Firebase.
 </ProgressExercise>
+
+<MultipleChoice slug="example-choice-exercise-with-partials" columns={3}>
+Text of the question.
+
+<Option>wrong option</Option>
+<Option points={20}>20% correct option</Option>
+<Option points={30}>30% correct option</Option>
+<Option points={40}>40% correct option</Option>
+<Option points={50}>50% correct option</Option>
+<Option correct>correct option</Option>
+
+You can add more content after the options, if you want.
+
+<Answer>
+Text explaining correct answer. Only shown after option is selected.
+</Answer>
+</MultipleChoice>
