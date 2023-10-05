@@ -1,0 +1,81 @@
+---
+title: Multiple Choice Exercises
+---
+
+## Suggested uses
+
+- Memorization of simple concepts
+- Recalling definitions or technical terms used in previous sessions
+- Practising the application of simple formulas or algorithms in new data
+
+## Syntax
+
+Try answering the quiz bellow. Answers persist page refreshes, so students won't loose their progress after the end of a session.
+
+<MultipleChoice slug="example-choice-exercise">
+Text of the question.
+
+<Option>wrong option 1</Option>
+<Option>wrong option 2</Option>
+<Option correct>correct option</Option>
+
+You can add more content after the options, if you want.
+
+<Answer>
+Text explaining correct answer. Only shown after option is selected.
+</Answer>
+</MultipleChoice>
+
+```md
+<MultipleChoice slug="example-choice-exercise">
+Text of the question.
+
+<Option>wrong option 1</Option>
+<Option>wrong option 2</Option>
+<Option correct>correct option</Option>
+
+You can add more content after the options, if you want.
+
+<Answer>
+Text explaining correct answer. Only shown after option is selected.
+</Answer>
+</MultipleChoice>
+```
+
+#### Multiple columns and partial points
+
+<MultipleChoice slug="example-choice-exercise-with-partials" columns={3}>
+Text of the question.
+
+<Option>wrong option</Option>
+<Option points={20}>20% correct option</Option>
+<Option points={30}>30% correct option</Option>
+<Option points={40}>40% correct option</Option>
+<Option points={50}>50% correct option</Option>
+<Option correct>correct option</Option>
+
+You can add more content after the options, if you want.
+
+<Answer>
+Text explaining correct answer. Only shown after option is selected.
+</Answer>
+</MultipleChoice>
+
+```md
+<MultipleChoice slug="example-choice-exercise-with-partials" columns={3}>
+Text of the question.
+
+<Option>wrong option</Option>
+<Option points={20}>20% correct option</Option>
+<Option points={30}>30% correct option</Option>
+<Option points={40}>40% correct option</Option>
+<Option points={50}>50% correct option</Option>
+<Option correct>correct option</Option>
+
+You can add more content after the options, if you want.
+
+<Answer>
+Text explaining correct answer. Only shown after option is selected.
+</Answer>
+</MultipleChoice>
+```

@@ -1,0 +1,35 @@
+---
+title: Sidenotes
+---
+
+A sidenote is composed of an anchor and the content. The anchor is an inline text that links to the sidenote content. The content is a modal (on mobile) or an aside (desktop) that only appears when the user clicks the anchor. See the example below.
+
+This is a <SidenoteAnchor forId="1" client:idle>sidenote anchor</SidenoteAnchor>. You can add sidenotes in your MDX using the following syntax. For anchors:
+
+<Sidenote id="1" client:idle>And this is the sidenote content. It will appear differently depending on the screen size.</Sidenote>
+
+```md
+<SidenoteAnchor forId="1" client:idle>
+inline anchor text
+</SidenoteAnchor>
+```
+
+The sidenote content may go anywhere in your document, but must match the `forId` value of an anchor. Also, you have to make sure the `id`s are unique.
+
+```md
+<Sidenote id="1" client:idle>
+side note content can go anywhere
+</Sidenote>
+```
+
+When using Astro, make sure to add `client:idle` in both the anchor and the content, so the sidenote becomes interactive.
+
+## Markdown
+
+You can use <SidenoteAnchor forId="2" client:idle>regular markdown</SidenoteAnchor> inside the sidenote.
+
+<Sidenote id="2" client:idle>
+You can use regular markdown here, so images should work:
+
+![](./monty-python.jpg)
+</Sidenote>
