@@ -15,8 +15,8 @@ dependencies:
     specifier: ^5.0.2
     version: 5.0.2(astro@3.2.4)
   '@toshikurauchi/active-handout':
-    specifier: ^0.0.33
-    version: 0.0.33(@types/react-dom@18.2.13)(@types/react@18.2.28)(csstype@3.1.2)(postcss@8.4.31)
+    specifier: ^0.0.34
+    version: 0.0.34(@types/react-dom@18.2.13)(@types/react@18.2.28)(csstype@3.1.2)(postcss@8.4.31)
   astro:
     specifier: ^3.2.4
     version: 3.2.4(sass@1.69.2)
@@ -1386,6 +1386,10 @@ packages:
     resolution: {integrity: sha512-8OJiUK2lzJjvDlkmamEfhtpL1cyFApg1Pk4kE5Pw5UTf1ETF3Yy/pprgwV5I+LQPDjuFvinsinT9xSUZ2b/zuQ==}
     dev: false
 
+  /@fontsource/source-sans-pro@5.0.8:
+    resolution: {integrity: sha512-5U2UvIYRkCMozZ388gCE73PEpa2MFgN/0t9O4a1FF7bGT/MIneQWSL1XpWZ8iMVYdh6ntxRf3iFA6slCIuFgkg==}
+    dev: false
+
   /@google-cloud/firestore@6.8.0:
     resolution: {integrity: sha512-JRpk06SmZXLGz0pNx1x7yU3YhkUXheKgH5hbDZ4kMsdhtfV5qPLJLRI4wv69K0cZorIk+zTMOwptue7hizo0eA==}
     engines: {node: '>=12.0.0'}
@@ -1662,8 +1666,8 @@ packages:
     dev: false
     optional: true
 
-  /@toshikurauchi/active-handout@0.0.33(@types/react-dom@18.2.13)(@types/react@18.2.28)(csstype@3.1.2)(postcss@8.4.31):
-    resolution: {integrity: sha512-83pde84ygUvsBHcyb1eCMPrEUwN1AQCbJPlv6IpRQau0seQlkDGerPuu9CrjSH++aSP9Zae9zhsYqB21DwfFPQ==}
+  /@toshikurauchi/active-handout@0.0.34(@types/react-dom@18.2.13)(@types/react@18.2.28)(csstype@3.1.2)(postcss@8.4.31):
+    resolution: {integrity: sha512-k6m5G/MFrWKBBV5Xg70nfSqjGPL9hZe2wpmFoIeqD/emwVQ5BQF+OkmNqhv3hVLXUirVznuxEDSEsqultcLn9Q==}
     dependencies:
       '@astrojs/check': 0.2.0(typescript@5.2.2)
       '@astrojs/mdx': 1.1.1(astro@3.2.4)
@@ -1672,6 +1676,7 @@ packages:
       '@fontsource-variable/open-sans': 5.0.16
       '@fontsource-variable/oswald': 5.0.15
       '@fontsource/fira-mono': 5.0.8
+      '@fontsource/source-sans-pro': 5.0.8
       '@shopify/draggable': 1.0.0-beta.12
       '@webcomponents/template-shadowroot': 0.2.1
       astro: 3.2.4(sass@1.69.2)
